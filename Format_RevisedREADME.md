@@ -1,14 +1,12 @@
 # Cell Line Engineering README
 
 Disclaimer: This program is distributed in the hope that it will be
-useful,
+useful, but WITHOUT ANY WARRANTY that it will perform flawlessly or be
+fit for a particular purpose. The use or mention by NIST of commercial
+products does not imply endorsement or indication that they are the
+only, or best, products.
 
-but WITHOUT ANY WARRANTY that it will perform flawlessly or be fit for a
-particular purpose. The use or mention by NIST of commercial products
-does not imply endorsement or indication that they are the only, or
-best, products.
-
-## Purpose of this repository program 
+## Purpose of this program 
 
 This program allows collection of information about gene editing
 operations and activities performed on transfected cells. It allows
@@ -157,13 +155,13 @@ tracking of what is done and when to individual cell samples over time.
     plate for activities such as *Passage*, *Sort*, and *Freeze*.
     Exceptions to this rule for entries in the ***Plate*** column:
 
-    1.  [\#]{.underline} of [10cm]{.underline} plates (type in 10cm)
+    1.  ['# ']{.underline}of [10cm]{.underline} plates (type in 10cm)
 
-    2.  [\#]{.underline} of [vials]{.underline} for freezing (type in
+    2.  ['#']{.underline} of [vials]{.underline} for freezing (type in
         the word vial)
 
-    3.  [\#]{.underline} of flasks of size ([T125]{.underline}) (type in
-        T125 or other flask designation)
+    3.  ['#']{.underline} of flasks of size ([T125]{.underline}) (type
+        in T125 or other flask designation)
 
 4)  Select ***Activity*** *Discontinue* when no versions of that clone
     are being carried further because of loss of fluorescence or other
