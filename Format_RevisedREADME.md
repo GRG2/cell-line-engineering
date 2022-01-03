@@ -1,10 +1,10 @@
 # Cell Line Engineering README
 
-Disclaimer: This program is distributed in the hope that it will be
+*\*Disclaimer: This program is distributed in the hope that it will be
 useful, but WITHOUT ANY WARRANTY that it will perform flawlessly or be
 fit for a particular purpose. The use or mention by NIST of commercial
 products does not imply endorsement or indication that they are the
-only, or best, products.
+only, or best, products. \**
 
 ## Purpose of this program 
 
@@ -155,13 +155,12 @@ tracking of what is done and when to individual cell samples over time.
     plate for activities such as *Passage*, *Sort*, and *Freeze*.
     Exceptions to this rule for entries in the ***Plate*** column:
 
-    1.  ['# ']{.underline}of [10cm]{.underline} plates (type in 10cm)
+    1.  '# of 10cm' plates (type in 10cm)
 
-    2.  ['#']{.underline} of [vials]{.underline} for freezing (type in
-        the word vial)
+    2.  '# of vials' for freezing (type in the word vial)
 
-    3.  ['#']{.underline} of flasks of size ([T125]{.underline}) (type
-        in T125 or other flask designation)
+    3.  '# of flasks' of size (T125) (type in T125 or other flask
+        designation)
 
 4)  Select ***Activity*** *Discontinue* when no versions of that clone
     are being carried further because of loss of fluorescence or other
@@ -219,8 +218,9 @@ tracking of what is done and when to individual cell samples over time.
         entries on the **Calendar**, these **...Reports** worksheets can
         be updated from the toolbar by *Data* / *Refresh All*.
 
-8)   Controlling and making changes to the worksheets: \[N.B.: These
-    tips are meant to guide a user, not to serve as an Excel tutorial.\]
+8)   Controlling and making changes to the worksheets: '''N.B.: These
+    tips are meant to guide a user, not to serve as an Excel
+    tutorial.'''
 
     a.  Whether you are using TransfectionTracker_v1221.xlsm or
         TransfectionTracker_v1221.clean.xlsm, consider saving a renamed
