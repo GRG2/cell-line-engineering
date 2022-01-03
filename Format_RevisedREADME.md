@@ -8,17 +8,17 @@ particular purpose. The use or mention by NIST of commercial products
 does not imply endorsement or indication that they are the only, or
 best, products.
 
-**Purpose of this program**
+## Purpose of this repository program 
 
 This program allows collection of information about gene editing
 operations and activities performed on transfected cells. It allows
 tracking of what is done and when to individual cell samples over time.
 
-**Instructions for using TransfectionTracker**
+## Instructions for using TransfectionTracker
 
 **TransfectionTracker_v1221.xlsm**
 
-[GENERAL OVERVIEW:]{.underline}
+## GENERAL OVERVIEW: 
 
 1)  This program was created in Microsoft Excel for Microsoft 365 MSO
     (16.0.13127.21490) 32-bit.
@@ -46,7 +46,7 @@ tracking of what is done and when to individual cell samples over time.
 5)  Refer to the **Documentation** worksheet within the program for
     additional specific information.
 
-[DATA ENTRY: STEP-BY-STEP:]{.underline}
+## DATA ENTRY: STEP-BY-STEP: 
 
 1)  On opening the program, in response to dialog boxes, Enable Editing,
     Enable Content. If you intend to add data, answer NO if you see a
@@ -85,7 +85,7 @@ tracking of what is done and when to individual cell samples over time.
 4)  After entering data on the **Calendar**, press the ***Save*** button
     before navigating away from the **Calendar** page.
 
-[FEATURES OVERVIEW:]{.underline}
+## FEATURES OVERVIEW:
 
 1)  The **Calendar** worksheet allows entry of activities performed on
     each sample for any date.
