@@ -32,7 +32,7 @@ tracking of what is done and when to individual cell samples over time.
     worksheet such as ***Activity*** and ***Cell Sample Name*** on the
     **Calendar** or ***Data*** from the toolbar at the top of the page.
     *Italics* indicates a choice of input often from a drop-down list.
-    [Underline]{.underline} indicates examples of free text.
+    \`Highlighted text\` indicates examples of free text.
 
 4)  Two versions of the program are provided. One is populated with
     existing data so the user can see examples of what data are
@@ -62,15 +62,14 @@ tracking of what is done and when to individual cell samples over time.
         appear; click *OK*. The **Metadata Template** will open. Cell D5
         will be prepopulated with the selected date.
 
-        i.  Provide the minimum amount of information by making a
-            selection from the drop-down lists in cells D11, G11, and
-            D12. You will see error messages in cells L11 and L12 if the
-            ***[Original plasmid backbone information]{.underline}***
-            (box to the right) contains data that are inconsistent with
-            the information in D11, G11 and D12. An error here will not
-            prevent proceeding. A transfection designator will be
-            created in cell D44 with this information and the worksheet
-            will be renamed.
+        i.  Provide the minimum amount of information by selecting from
+            the drop-down lists in cells D11, G11, and D12. You will see
+            error messages in cells L11 and L12 if the ***Original
+            plasmid backbone information*** (box to the right) contains
+            data that are inconsistent with the information in D11, G11
+            and D12. An error here will not prevent proceeding. A
+            transfection designator will be created in cell D44 with
+            this information and the worksheet will be renamed.
 
 3)  Navigate back to the **Calendar** worksheet. The cell sample name
     that corresponds to the transfection designator (and which is the
@@ -155,11 +154,11 @@ tracking of what is done and when to individual cell samples over time.
     plate for activities such as *Passage*, *Sort*, and *Freeze*.
     Exceptions to this rule for entries in the ***Plate*** column:
 
-    1.  \`\# of 10cm\` plates (type in 10cm)
+    1.  **\# of 10cm** plates (type in 10cm)
 
-    2.  \`\# of vials\` for freezing (type in the word vial)
+    2.  **\# of vials** for freezing (type in the word vial)
 
-    3.  \`\# of flasks\` of size (T125) (type in T125 or other flask
+    3.  **\# of flasks** of size (T125) (type in T125 or other flask
         designation)
 
 4)  Select ***Activity*** *Discontinue* when no versions of that clone
