@@ -1,12 +1,10 @@
 # Cell Line Engineering README
 
 *Disclaimer: This program is distributed in the hope that it will be
-useful,*
-
-*but WITHOUT ANY WARRANTY that it will perform flawlessly or be fit for
-a particular purpose. The use or mention by NIST of commercial products
-does not imply endorsement or indication that they are the only, or
-best, products.*
+useful, but WITHOUT ANY WARRANTY that it will perform flawlessly or be
+fit for a particular purpose. The use or mention by NIST of commercial
+products does not imply endorsement or indication that they are the
+only, or best, products.*
 
 ## Purpose of this program
 
