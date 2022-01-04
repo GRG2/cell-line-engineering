@@ -1,12 +1,14 @@
 # Cell Line Engineering README
 
 *Disclaimer: This program is distributed in the hope that it will be
-useful, but WITHOUT ANY WARRANTY that it will perform flawlessly or be
-fit for a particular purpose. The use or mention by NIST of commercial
-products does not imply endorsement or indication that they are the
-only, or best, products.*
+useful,*
 
-## Purpose of this program 
+*but WITHOUT ANY WARRANTY that it will perform flawlessly or be fit for
+a particular purpose. The use or mention by NIST of commercial products
+does not imply endorsement or indication that they are the only, or
+best, products.*
+
+## Purpose of this program
 
 This program allows collection of information about gene editing
 operations and activities performed on transfected cells. It allows
@@ -15,6 +17,32 @@ tracking of what is done and when to individual cell samples over time.
 ## Instructions for using TransfectionTracker
 
 **TransfectionTracker_v1221.xlsm**
+
+## Table of contents
+
+GENERAL OVERVIEW
+
+DATA ENTRY: STEP-BY-STEP
+
+FEATURES OVERVIEW
+
+1)  The **Calendar** worksheet
+
+2)  Navigating the **Calendar** worksheet
+
+3)  Using the *\#* and *Plate* columns
+
+4)  ***Activity*** *Discontinue*
+
+5)  ***Activity** Thaw*
+
+6)  ***Activity** Sort*
+
+7)  Other worksheets
+
+8)  Controlling and making changes to the worksheets
+
+9)  **Do NOT...**
 
 ## GENERAL OVERVIEW: 
 
@@ -32,7 +60,7 @@ tracking of what is done and when to individual cell samples over time.
     worksheet such as ***Activity*** and ***Cell Sample Name*** on the
     **Calendar** or ***Data*** from the toolbar at the top of the page.
     *Italics* indicates a choice of input often from a drop-down list.
-    \`Highlighted text\` indicates examples of free text.
+    [Underline]{.underline} indicates examples of free text.
 
 4)  Two versions of the program are provided. One is populated with
     existing data so the user can see examples of what data are
@@ -62,14 +90,15 @@ tracking of what is done and when to individual cell samples over time.
         appear; click *OK*. The **Metadata Template** will open. Cell D5
         will be prepopulated with the selected date.
 
-        i.  Provide the minimum amount of information by selecting from
-            the drop-down lists in cells D11, G11, and D12. You will see
-            error messages in cells L11 and L12 if the ***Original
-            plasmid backbone information*** (box to the right) contains
-            data that are inconsistent with the information in D11, G11
-            and D12. An error here will not prevent proceeding. A
-            transfection designator will be created in cell D44 with
-            this information and the worksheet will be renamed.
+        i.  Provide the minimum amount of information by making a
+            selection from the drop-down lists in cells D11, G11, and
+            D12. You will see error messages in cells L11 and L12 if the
+            ***[Original plasmid backbone information]{.underline}***
+            (box to the right) contains data that are inconsistent with
+            the information in D11, G11 and D12. An error here will not
+            prevent proceeding. A transfection designator will be
+            created in cell D44 with this information and the worksheet
+            will be renamed.
 
 3)  Navigate back to the **Calendar** worksheet. The cell sample name
     that corresponds to the transfection designator (and which is the
@@ -154,12 +183,13 @@ tracking of what is done and when to individual cell samples over time.
     plate for activities such as *Passage*, *Sort*, and *Freeze*.
     Exceptions to this rule for entries in the ***Plate*** column:
 
-    1.  **\# of 10cm** plates (type in 10cm)
+    1.  [\#]{.underline} of [10cm]{.underline} plates (type in 10cm)
 
-    2.  **\# of vials** for freezing (type in the word vial)
+    2.  [\#]{.underline} of [vials]{.underline} for freezing (type in
+        the word vial)
 
-    3.  **\# of flasks** of size (T125) (type in T125 or other flask
-        designation)
+    3.  [\#]{.underline} of flasks of size ([T125]{.underline}) (type in
+        T125 or other flask designation)
 
 4)  Select ***Activity*** *Discontinue* when no versions of that clone
     are being carried further because of loss of fluorescence or other
@@ -217,8 +247,8 @@ tracking of what is done and when to individual cell samples over time.
         entries on the **Calendar**, these **...Reports** worksheets can
         be updated from the toolbar by *Data* / *Refresh All*.
 
-8)  Controlling and making changes to the worksheets: (N.B.: These tips
-    are meant to guide a user, not to serve as an Excel tutorial.)
+8)   Controlling and making changes to the worksheets: \[N.B.: These
+    tips are meant to guide a user, not to serve as an Excel tutorial.\]
 
     a.  Whether you are using TransfectionTracker_v1221.xlsm or
         TransfectionTracker_v1221.clean.xlsm, consider saving a renamed
@@ -293,9 +323,9 @@ tracking of what is done and when to individual cell samples over time.
         worksheets for each transfection by selecting on ***Cell Sample
         Name*** in the *Power Query Editor* dialog box. Further queries
         of these selected data were used to generate the
-        **Passage#s...** worksheets. (N.B. Do not assign the **Cell
+        **Passage#s...** worksheets. \[N.B. Do not assign the **Cell
         Samples** worksheet as a table, since it needs to operate as a
-        data range.)
+        data range.\]
 
     d.  Protecting and unprotecting workbooks, worksheets, and cells
         provides control by restricting worksheet cell entries while
