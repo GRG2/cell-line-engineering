@@ -1,10 +1,8 @@
 # Cell Line Engineering README
 
-*Disclaimer: This program is distributed in the hope that it will be
-useful, but WITHOUT ANY WARRANTY that it will perform flawlessly or be
-fit for a particular purpose. The use or mention by NIST of commercial
-products does not imply endorsement or indication that they are the
-only, or best, products.*
+> Disclaimer: This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY that it will perform flawlessly or be
+fit for a particular purpose. The use or mention by NIST of commercial products does not imply endorsement or indication that they are the
+only, or best, products.
 
 ## Purpose of this program
 
@@ -18,30 +16,20 @@ tracking of what is done and when to individual cell samples over time.
 
 ## Table of contents
 
-GENERAL OVERVIEW
+* [GENERAL OVERVIEW](#overview)
+* [DATA ENTRY: STEP-BY-STEP](#dataentry)
+* [FEATURES OVERVIEW](#features)
+1)  [The **Calendar** worksheet](#calWksheet)
+2)  [Navigating the **Calendar** worksheet](#navCal)
+3)  [Using the *\#* and *Plate* columns](#plate)
+4)  [***Activity*** *Discontinue*](#discontinue)
+5)  [***Activity** Thaw*](#thaw)
+6)  [***Activity** Sort*](#sort)
+7)  [Other worksheets](#other)
+8)  [Controlling and making changes to the worksheets](#controlWksheet)
+9)  [**Do NOT...**](#donot)
 
-DATA ENTRY: STEP-BY-STEP
-
-FEATURES OVERVIEW
-
-1)  The **Calendar** worksheet
-
-2)  Navigating the **Calendar** worksheet
-
-3)  Using the *\#* and *Plate* columns
-
-4)  ***Activity*** *Discontinue*
-
-5)  ***Activity** Thaw*
-
-6)  ***Activity** Sort*
-
-7)  Other worksheets
-
-8)  Controlling and making changes to the worksheets
-
-9)  **Do NOT...**
-
+<a name="overview"></a>
 ## GENERAL OVERVIEW: 
 
 1)  This program was created in Microsoft Excel for Microsoft 365 MSO
@@ -58,7 +46,7 @@ FEATURES OVERVIEW
     worksheet such as ***Activity*** and ***Cell Sample Name*** on the
     **Calendar** or ***Data*** from the toolbar at the top of the page.
     *Italics* indicates a choice of input often from a drop-down list.
-    [Underline]{.underline} indicates examples of free text.
+    `Highlighted Text` indicates examples of free text.
 
 4)  Two versions of the program are provided. One is populated with
     existing data so the user can see examples of what data are
@@ -70,6 +58,7 @@ FEATURES OVERVIEW
 5)  Refer to the **Documentation** worksheet within the program for
     additional specific information.
 
+<a name="dataentry"></a>
 ## DATA ENTRY: STEP-BY-STEP: 
 
 1)  On opening the program, in response to dialog boxes, Enable Editing,
@@ -91,7 +80,7 @@ FEATURES OVERVIEW
         i.  Provide the minimum amount of information by making a
             selection from the drop-down lists in cells D11, G11, and
             D12. You will see error messages in cells L11 and L12 if the
-            ***[Original plasmid backbone information]{.underline}***
+            ***`Original plasmid backbone information`***
             (box to the right) contains data that are inconsistent with
             the information in D11, G11 and D12. An error here will not
             prevent proceeding. A transfection designator will be
@@ -109,10 +98,15 @@ FEATURES OVERVIEW
 4)  After entering data on the **Calendar**, press the ***Save*** button
     before navigating away from the **Calendar** page.
 
+<a name="features"></a>
 ## FEATURES OVERVIEW:
+
+<a name="calWksheet"></a>
 
 1)  The **Calendar** worksheet allows entry of activities performed on
     each sample for any date.
+
+<a name="navCal"></a>
 
 2)  In the **Calendar** worksheet, navigate to any date desired using
     the large BLUE arrows in the upper left of the Calendar window, or
@@ -176,22 +170,28 @@ FEATURES OVERVIEW
         the number of worksheets visible (but accessible) in the
         workbook.
 
+<a name="plate"></a>
+
 3)  The columns labeled ***\#*** and ***Plate*** can be used to record
     the \# of wells used and the total number of wells in cell culture
     plate for activities such as *Passage*, *Sort*, and *Freeze*.
     Exceptions to this rule for entries in the ***Plate*** column:
 
-    1.  [\#]{.underline} of [10cm]{.underline} plates (type in 10cm)
+    a.  `#` of `10cm` plates (type in 10cm)
 
-    2.  [\#]{.underline} of [vials]{.underline} for freezing (type in
+    b.  `#` of `vials` for freezing (type in
         the word vial)
 
-    3.  [\#]{.underline} of flasks of size ([T125]{.underline}) (type in
+    c.  `#` of flasks of size (`T125`) (type in
         T125 or other flask designation)
+
+<a name="discontinue"></a>
 
 4)  Select ***Activity*** *Discontinue* when no versions of that clone
     are being carried further because of loss of fluorescence or other
     reason. Add reason to the ***Notes*** column as free text.
+
+<a name="thaw"></a>
 
 5)  The ***Activity** Thaw* applies only to cells from a bank previously
     subjected to ***Activity** Freeze*. If you take a sample from the
@@ -199,6 +199,8 @@ FEATURES OVERVIEW
     ***Activity*** *ExtractDNA*.
 
     a.  A *Thaw* event is counted as incrementing passage number.
+
+<a name="sort"></a>
 
 6)  ***Activity** Sort* will append the **Cell Samples** worksheet with
     a new cell sample name to indicate sort number (\_Sort#). This new
@@ -215,6 +217,8 @@ FEATURES OVERVIEW
 
     c.  The ***Activity** Sort* is counted as an increment to passage
         number.
+
+<a name="other"></a>
 
 7)  Other worksheets:
 
@@ -245,8 +249,10 @@ FEATURES OVERVIEW
         entries on the **Calendar**, these **...Reports** worksheets can
         be updated from the toolbar by *Data* / *Refresh All*.
 
-8)   Controlling and making changes to the worksheets: \[N.B.: These
-    tips are meant to guide a user, not to serve as an Excel tutorial.\]
+<a name="controlWksheet"></a>
+
+8)  Controlling and making changes to the worksheets: (N.B.: These
+    tips are meant to guide a user, not to serve as an Excel tutorial.)
 
     a.  Whether you are using TransfectionTracker_v1221.xlsm or
         TransfectionTracker_v1221.clean.xlsm, consider saving a renamed
@@ -321,9 +327,9 @@ FEATURES OVERVIEW
         worksheets for each transfection by selecting on ***Cell Sample
         Name*** in the *Power Query Editor* dialog box. Further queries
         of these selected data were used to generate the
-        **Passage#s...** worksheets. \[N.B. Do not assign the **Cell
+        **Passage#s...** worksheets. (N.B. Do not assign the **Cell
         Samples** worksheet as a table, since it needs to operate as a
-        data range.\]
+        data range.)
 
     d.  Protecting and unprotecting workbooks, worksheets, and cells
         provides control by restricting worksheet cell entries while
@@ -332,9 +338,9 @@ FEATURES OVERVIEW
         *Info*. Five worksheets in the current workbook are protected:
         **Calendar**, **Metadata Template** and metadata worksheets for
         three transfections. Protections can be removed from the
-        ***File** / Info* page by pressing *Unprotect*[,]{.underline} or
+        ***File** / Info* page by pressing `*Unprotect*` or
         from the worksheet at the tool bar by choosing ***Review*** /
-        *Unprotect Sheet*, by using the password [aplant]{.underline}.
+        *Unprotect Sheet*, by using the password `aplant`.
         From a worksheet, it is possible to designate, through
         ***Home*** / *Cells* / *Format* function, which cells are to be
         protected and which are to be available for user input. In the
@@ -354,6 +360,8 @@ FEATURES OVERVIEW
         be modified as described in part 8b above. However, it would be
         necessary to be sure that the new activity name was substituted
         in all relevant lines in the VBA code.
+
+<a name="donot"></a>
 
 9)  **Do NOT:**
 
